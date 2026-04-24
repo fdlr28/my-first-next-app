@@ -1,10 +1,12 @@
+'use client';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-zinc-950 text-white flex items-center justify-center">
       <div className="text-center px-6">
-        <h1 className="text-7xl font-bold mb-6">Halo, saya Fadhlan 👋</h1>
-        <p className="text-3xl mb-10 text-zinc-400 max-w-2xl mx-auto">
-          Belajar FPV Drone • Robotics • Web Development
+        <h1 className="text-7xl font-bold mb-6">Halo, saya Fadhlan </h1>
+        <p className="text-3xl mb-10 text-zinc-400">
+          Belajar FPV Drone, Robotics &amp; Web Development
         </p>
         <button 
           onClick={() => alert('Project sedang dalam pengembangan!')}
